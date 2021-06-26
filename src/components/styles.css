@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    color: white;
+    padding: 10px;
+}
+
+.header{
+  margin:0;
+  padding: 0;
+}
+
+.header{
+    /* background-color:  #ffb4a2; */
+    display: inline-flex;
+    padding: 10px;
+    width: 100%;
+ }
+ 
+ .div-item{
+     padding: 15px;
+     text-align: center;
+     position: absolute;
+     right: 10px;
+ }
+
+ 
+span{
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 0px 5px 0px 5px ;
+    width: fit-content;
+    padding: 10px;
+    color:white;
+}
+.item-div:hover{
+    transform: scale(1.5);
+}

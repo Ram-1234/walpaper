@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* image-game*/
+
+img{
+   width: 210px;
+   height:350px;
+   border-radius: 10px;
+}
+
+img:hover{
+    transform: scale(1.01);
+}
+
+/*input field styles*/
+input{
+    border: white;
+}
+.user-input{
+    padding:5px;
+    position: fixed;
+    border: white;
+    border-radius: 10px;
+    width:200px;
+    height: 20px;
+    left: 500px;
+    top: 35px;
+}
+i{
+    color: grey;
+    position: relative;
+    top: 40px;
+    left:15px;
+    opacity: .4;
+}
+
+
+/* header style*/
+.nav-link{
+    text-decoration: none;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: white;
+   padding: 5px;
+   border-radius: 10px;
+}
+.nav-link:hover{
+    background-color: grey;
+}
+li{
+    list-style-position: inside;
+    list-style-type: none;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 30px;
+}
+li:hover{
+    transform: scaleY(1.03)
+}
+
+.header{
+    position: relative;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    background-color: crimson;
+
+}
+
+.all-list{
+    position: fixed;
+    right: 20px;
+    display: flex;
+
+}
+
+
+.logo{
+    color: white;
+   position: fixed;
+   font-size: 50px;
+   left: 20px;
+   top: 0px;
+   padding: 5px;
+   font-family: 'Lobster Two', cursive;
+}
+
+.img-details{
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 13px;
+}
+
+.img-name{
+    position: relative;
+    top: -40px;
+    left: 60px;
+    color: white;
+}
