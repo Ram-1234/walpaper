@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Hosted Link:https://elated-pasteur-fcf174.netlify.app/
+Hosted Link:https://reverent-benz-e04e40.netlify.app/
 
 ## Available Scripts
 
