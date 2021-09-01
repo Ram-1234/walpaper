@@ -7,6 +7,7 @@ import Building from './Building';
 import Tech from './Tech';
 import { Route,NavLink,Switch,useHistory} from 'react-router-dom';
 import './styles.css';
+import ImageSearchIcon from '@material-ui/icons/ImageSearch';
 
 function Apps() {
    const [input,setInput]=useState('')
@@ -37,8 +38,9 @@ function Apps() {
         <>
              <div className="header">
                  <h1 className="logo">Images...</h1>
-                 <input type="text" className="user-input" onKeyPress={(e)=>keyHandler(e)}  placeholder="search nature.." />
-                 <i className="fas fa-search-plus"></i>
+                 <input type="text" className="user-input" onKeyPress={(e)=>keyHandler(e)}  placeholder="search walpapers.." />
+                 {/* <i className="fas fa-search-plus"></i> */}
+                 <ImageSearchIcon className="imageSearchIcon" />
              <div className="all-list">
              <li>
                  <NavLink style={{border:tabname==='NATURE' ? '2px solid white':'none' }} onClick={(e)=>setColor(e)}  to='/' className="nav-link">NATURE</NavLink>

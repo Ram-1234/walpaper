@@ -19,26 +19,27 @@ img:hover{
 input{
     border: white;
     outline: none;
+    text-align: center;
 }
 .user-input{
     padding:5px;
     position: fixed;
     border: white;
-    border-radius: 10px;
+    border-radius: 50px;
     width:200px;
-    height: 20px;
+    height: 30px;
     left: 500px;
-    top: 35px;
+    top: 30px;
 }
-i{
+
+/* search icon */
+.imageSearchIcon{
+     position: relative;
     color: grey;
-    position: relative;
-    top: 40px;
-    left:15px;
-    opacity: .4;
+    top: 35px;
+    left: 10px;
+    opacity: 0.6;
 }
-
-
 /* header style*/
 .nav-link{
     text-decoration: none;
